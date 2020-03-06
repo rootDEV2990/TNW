@@ -1,0 +1,28 @@
+#article-container {
+	display: grid;
+	grid-template-rows: repeat(3, 344px);
+	grid-template-columns: 1fr;
+
+}
+
+article {
+	border: 2px solid black;
+	display: block;
+	height: 100%;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.nav-bar #logo {
+	height: 45px;
+}
+
+.nav-bar .nav-i {
+	width:100%;
+	list-style-type: none;
+}
+
