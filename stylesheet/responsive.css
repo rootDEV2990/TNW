@@ -1,12 +1,18 @@
 @media only screen and (max-width: 360px) {
   .nav-bar .nav-hidden {
 	display: none;
- }
- .nav-bar .nav-i {
- 	padding: 0;
- }
- .nav-i button {
- 	float: right;
- 	height: 100%;
- }
+	}
+		.nav-bar .nav-i {
+	padding: 0;
+	}
+		.nav-i button {
+		float: right;
+		height: 100%;
+	}
+	#nav-bottom {
+		height: 66px;
+		line-height: 66px;
+		font-size: 11.5px;
+		padding: 0 5%;
+	}
 }
