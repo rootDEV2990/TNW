@@ -22,4 +22,15 @@
 		margin: 0 1%;
 		grid-gap: 1%;
 	}
+
+	#news-section {
+		width: 336px;
+	}
+
+	#news-container {
+		display: grid;
+		grid-template-columns: 75px 1fr;
+		grid-template-rows: repeat(8, 75px);
+		width: 100%;
+	}
 }

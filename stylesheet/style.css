@@ -39,3 +39,16 @@ article {
 	background-color: blue;
 	height: 100%;
 }
+
+#news-section {
+	width: 1192px;
+	margin: 0 auto;
+}
+
+#news-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 251px);
+	width: 100%;
+	background-color: rgb(60, 220, 20);
+}
