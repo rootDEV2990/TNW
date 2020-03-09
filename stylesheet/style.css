@@ -63,8 +63,25 @@ article {
 .funding-grid {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-rows: repeat(3, 336px);
+	grid-template-rows: 40px 60px 82px 63px;
 	background-color: rgb(245, 153, 87);
+	margin: 5px 3%;
+}
+
+.funding-grid .funding-title {
+	background-color: #ff4422;
+}
+
+.funding-grid .funding-price{
+	background-color: #ffebe7;
+}
+
+.funding-grid .funding-details {
+	background-color: #fffaf8;
+}
+
+.funding-grid .funding-contact {
+	background-color: #fffaf8;
 }
 
 .category-grid {
