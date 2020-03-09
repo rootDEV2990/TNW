@@ -1,4 +1,6 @@
-
+body {
+	box-sizing: border-box;
+}
 
 .nav-bar {
 	display: flex;
@@ -17,7 +19,7 @@
 
 #nav-bottom {
 	height: 35px;
-	width: 100%;
+	width: 98.5%;
 	background-color: #ffdd33;
 	padding-left: 1.5%;
 	line-height: 35px;
@@ -51,4 +53,23 @@ article {
 	grid-template-rows: repeat(2, 251px);
 	width: 100%;
 	background-color: rgb(60, 220, 20);
+}
+
+.funding-section {
+	width: 99%;
+	margin: 0 1%;
+}
+
+.funding-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 336px);
+	background-color: rgb(245, 153, 87);
+}
+
+.category-grid {
+	display: grid;
+	grid-template-columns: 12fr;
+	grid-template-rows: auto;
+	background-color: rgb(97, 158, 238);
 }
