@@ -87,6 +87,67 @@ article {
 .category-grid {
 	display: grid;
 	grid-template-columns: 12fr;
-	grid-template-rows: auto;
+	grid-auto-rows: auto;
 	background-color: rgb(97, 158, 238);
+	padding: 0 5%;
 }
+
+.post-pic {
+	grid-column: 1/13;
+	height: 240px; 
+	background-size: 320px 240px;
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/app-store-apple-hed-368x276.png");
+}
+
+.post-header {
+	padding-top: 68px;
+	background: rgb(34,34,34);
+	background: linear-gradient(0deg, rgba(34,34,34,0.5396358372450543) 5%, rgba(120,120,120,0.5788515235195641) 70%, rgba(173,173,173,0) 100%);
+}
+
+.post-header h4 {
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+}
+
+.post-header h3 {
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	font-size: 2.2rem;
+}
+
+.post-header h5 {
+	font-size: 1rem;
+	color: rgb(255, 255, 255);
+
+}
+
+.latest-article {
+	
+	grid-column: 1/13;
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+	background-color: #f6ebe9;
+	
+
+}
+
+.latest-article header {
+	width: 75%;
+	padding: 5% 0 0 5%;
+	color: red;
+}
+
+.latest-article header h5 {
+	text-transform: uppercase;
+}
+
+.latest-article div {
+	width: 25%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 180%;
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/video-background-cut-isolate-unsreen.png");
+}
+
