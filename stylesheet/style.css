@@ -27,7 +27,7 @@ body {
 	font-size: 12px;
 }
 
-#article-container {
+.article-container {
 	display: grid;
 }
 
@@ -37,9 +37,22 @@ article {
 	height: 100%;
 }
 
-#article-container .main-article {
-	background-color: blue;
-	height: 100%;
+.article-container .article-1 .main-article {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/Doctor-796x417.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.article-container .article-2 .main-article {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.article-container .article-3 .main-article {
+	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/bitcoin-nasdaq-nikkei-stocks-small-cap-blocckhain-cryptocurrency-investment-796x448.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .news-section {
