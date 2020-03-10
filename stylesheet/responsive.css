@@ -174,7 +174,43 @@
   .latest-section .category-grid {
     width: 30%;
     padding: 1%;
-  }
+	}
+	
+	.funding-section {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		width: 100%;
+		margin: 0;
+	}
+
+	.funding-section .link-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.link-container .funding-info {
+		display: flex;
+		flex-direction: row;
+		width: 30%;
+		justify-content: space-around;
+	}
+
+	.funding-main-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 270px);
+		grid-template-rows: auto;
+		margin: 10px 5%;
+		width: 90%;
+		grid-gap: 5%;
+	}
+
+	.funding-grid {
+		display: grid;
+		grid-template-columns: 90px 210px;
+		grid-template-rows: 40px 60px 82px 63px;
+	}
 
   .news-item img {
     width: 270px;

@@ -175,9 +175,15 @@ article {
   color: #aaa;
 }
 
-.funding-section {
+.funding-section,
+.link-container {
   width: 94%;
   margin: 30px 3% 0;
+}
+
+.funding-section .link-container {
+	display: flex;
+	flex-direction: column;
 }
 
 .funding-link {
@@ -186,16 +192,22 @@ article {
   line-height: 35px;
 }
 
-.funding-link:first-child {
+.funding-title {
   font-size: 25px;
   font-weight: 900;
+}
+
+.funding-main-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+  margin: 10px 0;
 }
 
 .funding-grid {
   display: grid;
   grid-template-columns: 90px 1fr;
   grid-template-rows: 40px 60px 82px 63px;
-  margin: 10px 0;
 }
 
 .funding-grid .funding-title {
