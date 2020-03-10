@@ -57,7 +57,7 @@ body {
 
 .article-container {
   display: grid;
-  padding-top: 82px;
+  padding-top: 124px;
 }
 
 article {
@@ -82,6 +82,28 @@ article {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/bitcoin-nasdaq-nikkei-stocks-small-cap-blocckhain-cryptocurrency-investment-796x448.jpg");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.main-article .article-flex {
+  display: flex;
+  flex-direction: column;
+	width: 90%;
+	margin: 0 auto;
+  height: 200px;
+	justify-content: flex-end;
+	margin-bottom: 14px;
+}
+
+.article-flex .article-title {
+	font-size: 20px;
+	font-weight: 900;
+	color: white;
+}
+
+.article-flex .article-author {
+	font-size: 15px;
+	font-weight: 400;
+	color: rgb(172, 172, 172);
 }
 
 .news-section {

@@ -20,11 +20,11 @@
     padding: 0 5%;
   }
 
-  #article-container {
+  .article-container {
     grid-template-rows: repeat(3, 214px);
     grid-template-columns: 1fr;
     margin: 0 1%;
-    grid-gap: 1%;
+    grid-gap: 10px;
   }
 
   #news-section {
@@ -40,17 +40,17 @@
 
   .article-container .article-1 .main-article {
     background-size: 344px 214px;
-    height: 300px;
+    height: 214px;
   }
 
   .article-container .article-2 .main-article {
     background-size: 344px 214px;
-    height: 300px;
+    height: 214px;
   }
 
   .article-container .article-3 .main-article {
     background-size: 344px 214px;
-    height: 300px;
+    height: 214px;
 	}
 
   .latest-section {
