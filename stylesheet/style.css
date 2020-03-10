@@ -422,6 +422,7 @@ article {
 
 footer nav {
 	background-color: #131313;
+	padding: 2.6rem 0;
 }
 
 .footer-nav {
@@ -429,4 +430,45 @@ footer nav {
 	justify-content: center;
 	flex-direction: row;
 }
+
+.footer-links {
+	padding-bottom: 2%;
+}
+
+.footer-links .footer-nav:nth-child(1) li {
+	margin: 0 1%;
+}
+
+footer .footer-nav:nth-child(1) a {
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	display: inline-block;
+	background-color: #323232;
+	height: 40px;
+	width: 40px;
+	border:2px solid #323232;
+	border-radius: 50%;
+	line-height: 40px;
+}
+
+.footer-legal {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 2.6rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+.footer-legal img {
+	height: 9px;
+	width: 37px;
+}
+
+.footer-legal span b {
+		color: red;
 }

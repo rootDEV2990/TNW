@@ -68,6 +68,54 @@
 		height: 75px;
 		width: 75px;
 	}
+	footer nav {
+		padding: 45px 30px;
+	}
+
+	footer .footer-links {
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 1rem;
+	}
+
+	footer .footer-links li {
+		width: 16%;
+	}
+
+	footer .footer-nav:nth-child(2) li {
+		padding: 0 4px;
+
+	}
+
+	footer .footer-nav:nth-child(2) a {
+		text-transform: uppercase;
+		color: #9baa84;
+		font-size: 11px;
+		text-decoration: none;
+
+	}
+	.footer-legal .tnw {
+		height: 9px;
+		width: 37px;
+	}
+
+	.footer-legal .stackpath {
+		height: 9px;
+		width: 65px;
+	}
+
+	.footer-legal span {
+		font-size: 12px;
+		width: 100%;
+
+	}
+
+	.footer-legal {
+	  padding: 10% 0;
+	  display: flex;
+	  flex-wrap: wrap;
+	  flex-direction: column;
+	}
 
 
 }
