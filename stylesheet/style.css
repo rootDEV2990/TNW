@@ -104,6 +104,15 @@ article {
 	z-index: 10;
 }
 
+.funding-grid .funding-details {
+	background-color: #fffaf8;
+	grid-column: 1 / 3;
+	grid-row: 3 / 4;
+	font-size: 13px;
+	padding: 5% 0 0 20px;
+	line-height: 25px;
+}
+
 .funding-price .price {
 	font-size: 18px;
 	font-weight: 900;
@@ -115,21 +124,20 @@ article {
 	padding-top: 5px;
 }
 
-.funding-grid .funding-details {
-	background-color: #fffaf8;
-	grid-column: 1 / 3;
-	grid-row: 3 / 4;
-	font-size: 13px;
-	padding: 10px 0 0 10px;
-}
-
 .funding-grid .funding-contact {
 	grid-column: 1 / 3;
 	grid-row: 4 / 5;
 	font-size: 12px;
 	border-top: 1px solid #ffcdc2;
 	background-color: #fffaf8;
-	padding: 10px 0 0 10px;
+	padding: 10px 0 0 20px;
+	line-height: 20px;
+	font-weight: 100;
+}
+
+.funding-contact .contact-gray {
+	color: #aaa;
+	font-size: 12px;
 }
 
 .category-grid {
