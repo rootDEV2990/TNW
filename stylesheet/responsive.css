@@ -1,6 +1,6 @@
 @media only screen and (max-width: 360px) {
   .nav-bar {
-  	justify-content: space-between;
+    justify-content: space-between;
   }
 
   .nav-bar .nav-hidden {
@@ -128,6 +128,8 @@
   .article-container {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 140px 140px;
+    padding: 124px 85px 0 85px;
+    grid-gap: 15px;
   }
 
   .article-1 {
@@ -137,7 +139,7 @@
 
   .article-2 {
     grid-column: 2/3;
-    grid-row: 1/;
+    grid-row: 1/2;
   }
 
   .article-3 {
@@ -179,7 +181,7 @@
     width: 30%;
     padding: 1%;
   }
-	
+
   .funding-section {
     display: flex;
     flex-wrap: wrap;
@@ -253,23 +255,24 @@
   }
 
   .nav-bar .nav-i a {
-  	line-height: 45px;
-  	font-size: 14px;
-  	text-transform: uppercase;
-  	text-decoration: none;
-  	font-family: Arial;
+    line-height: 45px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .hidden-menu {
-  	display: none;
+    display: none;
   }
 
   .nav-bar {
-  	justify-content: center;
+    justify-content: center;
   }
+
   .nav-bar .nav-i:nth-child(1) {
-	text-align: left;
-	padding: 0; 
+    text-align: left;
+    padding: 0;
   }
 
   .nav-bar .nav-i:nth-child(8) {
@@ -280,34 +283,29 @@
     text-align: right;
   }
 
-  .article-container  {
-    padding: 124px 85px 0 85px;
-    grid-gap: 15px;
-  }
-
   .article-flex .article-title {
-  	font-size: 40px;
+    font-size: 40px;
   }
 
   .article-container .article-1 .article-flex {
-  	height: 282px;
-  	/*background: rgba(34,34,34,0.3);
+    height: 282px;
+    /*background: rgba(34,34,34,0.3);
 	background: linear-gradient(0deg, rgba(34,34,34,0.29313723780527834) 5%, rgba(243,62,81,0.7161064254803484) 70%, rgba(202,130,134,0.27913163556438203) 100%);*/
   }
 
   .article-container .article-2 .article-flex {
-  	height: 140px;
+    height: 140px;
   }
 
   .article-container .article-3 .article-flex {
-  	height: 140px;
+    height: 140px;
   }
 
   .article-container .article-2 .article-title {
-  	font-size: 20px;
+    font-size: 20px;
   }
 
   .article-container .article-3 .article-title {
-  	font-size: 20px;
+    font-size: 20px;
   }
 }
