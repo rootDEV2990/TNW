@@ -342,7 +342,7 @@ article {
 }
 
 .post-header {
-  padding-top: 68px;
+  padding: 68px 0 0 2%;
   background: linear-gradient(0deg, rgba(34, 34, 34, 0.5396358372450543) 5%, rgba(120, 120, 120, 0.5788515235195641) 70%, rgba(173, 173, 173, 0) 100%);
   height: 200px;
 }
@@ -443,6 +443,17 @@ article {
   padding: 0 9%;
 }
 
+footer .footer-nav:nth-child(2) li {
+padding: 0 4px;
+}
+
+footer .footer-nav:nth-child(2) a {
+text-transform: uppercase;
+color: #9baa84;
+font-size: 11px;
+text-decoration: none;
+}
+
 footer nav {
   background-color: #131313;
   padding: 2.6rem 0;
@@ -454,9 +465,12 @@ footer nav {
   flex-direction: row;
 }
 
-.footer-links {
-  padding-bottom: 2%;
-}
+
+  footer .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+  }
 
 .footer-links .footer-nav:nth-child(1) li {
   margin: 0 1%;

@@ -83,22 +83,10 @@
   footer .footer-links {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 1rem;
   }
 
   footer .footer-links li {
     width: 16%;
-  }
-
-  footer .footer-nav:nth-child(2) li {
-    padding: 0 4px;
-  }
-
-  footer .footer-nav:nth-child(2) a {
-    text-transform: uppercase;
-    color: #9baa84;
-    font-size: 11px;
-    text-decoration: none;
   }
 
   .footer-legal .tnw {
@@ -124,7 +112,111 @@
   }
 }
 
-@media only screen and (min-width: 800px) {
+
+@media only screen and (max-width: 768px) {
+  .deals-img {
+    height: 75px;
+    width: 75px;
+  }
+
+  footer nav .footer-nav:nth-child(2) li {
+    margin: 0 1%;
+  }
+
+  .footer-legal {
+    padding: 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .latest-list {
+  	padding: 1% 2%;
+  }
+
+  .red-bullet li {
+  	padding: 1% 0;
+  }
+
+  .latest-article header {
+  	padding: 3% 0 0 3%;
+  }
+
+  .latest-article header h5 {
+  	font-size: 12px;
+  }
+
+  .latest-article header h3 {
+  	font-weight: 600;
+  }
+  .apps,
+  .gear,
+  .tech,
+  .creative,
+  .podium,
+  .insights,
+  .launch,
+  .distract {
+  	height: 545px;
+  }
+
+  .post-header {
+  	height: 520px;
+  	padding: 2% 2%;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: flex-end;
+  }
+  .latest-article div {
+  	width: 15%
+  }
+  .latest-article header {
+  	width: 85%
+  }
+  .funding-section .hidden {
+  	display: none;
+  }
+
+  .new-title {
+  	font-weight: 600;
+  }
+
+  .funding-link {
+  	font-weight: 600;
+  	font-size: 1.4rem;
+  }
+  .main-article .article-flex {
+  	margin-left: 2%;
+  	padding-bottom: 2%;
+  }
+  .nav-bar .nav-i:nth-child(1) {
+  	padding: 0;
+  }
+
+  .nav-bar .hidden {
+  	display: none;
+  }
+  .nav-bar {
+  	justify-content: space-between;
+  }
+  .hidden-menu {
+  	float: right;
+  }
+
+  .nav-bottom {
+  	text-align: center;
+  	font-size: 0.8rem;
+  	padding: 0;
+  	width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1021px) {
+	
+}
+
+
+@media only screen and (min-width: 1366px) {
   .article-container {
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 140px 140px;
