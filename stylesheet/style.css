@@ -15,7 +15,7 @@ body {
   height: 48px;
 }
 
-.nav-bar #logo {
+.nav-bar .logo {
   height: 48px;
   width: 106px;
 }
@@ -95,6 +95,10 @@ body {
   height: 200px;
   justify-content: flex-end;
   margin-bottom: 14px;
+}
+
+.tnw-cover {
+  display: none;
 }
 
 .article-flex .article-title {
