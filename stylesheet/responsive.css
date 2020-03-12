@@ -475,7 +475,7 @@
   }
 
   .post-header h4 {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .post-header h3 {
@@ -586,15 +586,15 @@
 
   .article-container .article-1 .article-flex {
     height: 90%;
-    width: 96%; 
+    width: 96%;
     padding: 2% 2%;
-    background: linear-gradient(339deg, rgba(99,7,6,1) 13%, rgba(189,25,94,0.4570027840237657) 42%, rgba(251,67,0,0.7511204310825893) 70%);
+    background: linear-gradient(339deg, rgba(99, 7, 6, 1) 13%, rgba(189, 25, 94, 0.4570027840237657) 42%, rgba(251, 67, 0, 0.7511204310825893) 70%);
   }
 
   .tnw-cover {
     display: block;
     align-self: flex-start;
-    padding:0 0 85px 0;
+    padding: 0 0 85px 0;
     height: 35%;
   }
 
