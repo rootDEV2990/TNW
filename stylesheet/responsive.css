@@ -651,7 +651,7 @@
   .link-container .funding-info {
     display: flex;
     flex-direction: row;
-    width: 35%;
+    width: 380px;
     justify-content: space-around;
   }
 

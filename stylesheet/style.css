@@ -16,7 +16,6 @@ body {
 }
 
 .navigation-bar ul {
-  display: flex;
   justify-content: space-between;
   font-size: 1rem;
 }
@@ -34,7 +33,6 @@ body {
 }
 
 .navigation-bar ul:nth-child(2) a {
-  text-decoration: none;
   color: #aea9a9; 
 }
 
@@ -54,55 +52,10 @@ body {
   color: white;
 }
 
-.black-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 32px;
-  background-color: black;
-  font-size: 13px;
-}
-
-.black-nav-cont1 {
-  width: 60%;
-  text-align: left;
-}
-
-.black-nav-cont2 {
-  width: 30%;
-  text-align: right;
-}
-
 .black-nav-link {
   color: rgb(192, 192, 192);
-  text-decoration: none;
   padding-left: 1.5%;
   padding-right: 1%;
-}
-
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  height: 48px;
-}
-
-.nav-bar .logo {
-  height: 48px;
-  width: 106px;
-}
-
-.nav-bar .nav-i {
-  list-style-type: none;
-  text-align: left;
-}
-
-.nav-bar .nav-i a {
-  line-height: 45px;
-  font-size: 14px;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #555;
 }
 
 .fa-bars {
@@ -150,7 +103,6 @@ body {
 }
 
 .main-article .article-flex {
-  display: flex;
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
@@ -165,7 +117,6 @@ body {
 
 .article-flex .article-title {
   font-size: 20px;
-  font-weight: 900;
   color: white;
 }
 
@@ -186,13 +137,12 @@ body {
   width: 100%;
 }
 
-.news-container .news-img {
+.new-content .news-img {
   height: 75px;
   width: 75px;
 }
 
-.news-container .news-text {
-  font-size: 14px;
+.new-content .news-text {
   color: black;
 }
 
@@ -213,19 +163,13 @@ body {
   width: 75px;
 }
 
-.news-text .new-title {
-  text-decoration: none;
-}
-
 .new-content .news-text p {
-  font-size: 14px;
   color: #000;
   padding-bottom: 12px;
 }
 
 .new-content .new-author {
   color: #555;
-  text-decoration: none;
 }
 
 .new-author .new-time {
@@ -239,18 +183,15 @@ body {
 }
 
 .funding-section .link-container {
-  display: flex;
   flex-direction: column;
 }
 
 .funding-link {
-  text-decoration: none;
   line-height: 35px;
 }
 
 .funding-title {
   font-size: 25px;
-  font-weight: 900;
 }
 
 .funding-main-grid {
@@ -270,7 +211,6 @@ body {
   background-color: #f42;
   color: rgb(255, 255, 255);
   padding: 13px 0 0 30%;
-  font-weight: 900;
 }
 
 .funding-grid .funding-price {
@@ -300,7 +240,6 @@ body {
 
 .funding-price .price {
   font-size: 18px;
-  font-weight: 900;
 }
 
 .funding-price .type {
@@ -326,10 +265,6 @@ body {
   grid-template-columns: 12fr;
   grid-auto-rows: auto;
   padding: 0 5%;
-}
-
-.category-grid .category-title {
-  text-decoration: none;
 }
 
 .category-grid h2 {
@@ -399,7 +334,6 @@ body {
 }
 
 .post-header h4 {
-  text-transform: uppercase;
   color: rgb(255, 255, 255);
 }
 
@@ -416,8 +350,6 @@ body {
 
 .latest-article {
   grid-column: 1/13;
-  display: flex;
-  flex-direction: row;
   height: 100px;
   background-color: #f6ebe9;
 }
@@ -426,10 +358,6 @@ body {
   width: 75%;
   padding: 5% 0 0 5%;
   color: red;
-}
-
-.latest-article header h5 {
-  text-transform: uppercase;
 }
 
 .latest-article div {
@@ -478,7 +406,6 @@ body {
   color: #555;
   font-size: 0.8rem;
   word-spacing: 2px;
-  text-decoration: none;
 }
 
 .red-bullet li a:hover {
@@ -503,10 +430,8 @@ footer .footer-nav:nth-child(2) li {
 }
 
 footer .footer-nav:nth-child(2) a {
-  text-transform: uppercase;
   color: #9baa84;
   font-size: 11px;
-  text-decoration: none;
 }
 
 footer nav {
@@ -515,13 +440,10 @@ footer nav {
 }
 
 .footer-nav {
-  display: flex;
   justify-content: center;
-  flex-direction: row;
 }
 
 footer .footer-links {
-  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 1rem;
@@ -551,9 +473,7 @@ footer .footer-nav:nth-child(1) a {
   color: white;
   text-align: center;
   padding: 2.6rem 0;
-  display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -590,4 +510,28 @@ footer .footer-nav:nth-child(1) a {
 
 .bg-nr {
   background-repeat: no-repeat;
+}
+
+.df {
+  display: flex;
+}
+
+.td-nn {
+  text-decoration: none
+}
+
+.fd-r {
+  flex-direction: row;
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
