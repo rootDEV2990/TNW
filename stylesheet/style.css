@@ -136,13 +136,13 @@ body {
 }
 
 .nav-bottom {
-  height: 76px;
-  width: 94%;
+  height: 60px;
+  width: 100%;
   background-color: #fd3;
   padding-left: 6%;
-  line-height: 76px;
+  line-height: 60px;
   text-align: left;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .article-container {
@@ -196,8 +196,8 @@ body {
 }
 
 .news-section {
-  width: 92%;
-  margin: 40px 4%;
+  width: 82%;
+  margin: 40px 9%;
 }
 
 .news-section .news-container {
@@ -207,6 +207,13 @@ body {
   grid-gap: 4%;
   width: 100%;
   margin-top: 10px;
+}
+
+.deals-content {
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  grid-gap: 2%;
+  width: 100%;
 }
 
 .news-container .news-img {

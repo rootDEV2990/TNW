@@ -247,6 +247,19 @@
   .logo-container .logo {
     display: none;
   }
+
+  .article-container {
+    grid-template-rows: repeat(3, 300px);
+    grid-row-gap: 2%;
+  }
+
+  .article-container .main-article {
+    height: 100%;
+  }
+
+  .main-article .article-flex {
+    height: 295px;
+  }
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 790px) {
@@ -507,6 +520,23 @@
   .navigation-bar .xs-menu {
     display: block;
   }
+
+  .deals-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4%;
+    width: 100%;
+    grid-template-rows: 196px 85px;
+    
+  }
+
+  .post-header h4 {
+    font-size: 0.7rem;
+  }
+
+  .post-header h3 {
+    font-size: 1.2rem;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -528,6 +558,8 @@
   .nav-bottom {
     height: 30px;
     line-height: 30px;
+    padding-left: 2%;
+    font-size: 0.9rem;
   }
 
   .article-1 {
@@ -576,7 +608,7 @@
   .latest-section {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4%;
+    padding: 0 6%;
   }
 
   .post-pic .post-header {
@@ -654,14 +686,19 @@
     width: 100%;
   }
 
+  .deals-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4%;
+    width: 100%;
+    grid-template-rows: 170px 85px;
+    
+  }
+
   .new-content .news-img,
   .deals-img {
     height: 100%;
     width: 100%;
-  }
-
-  .deals-txt {
-    padding-top: 5rem;
   }
 
   .hidden-menu {
@@ -699,7 +736,7 @@
   .tnw-cover {
     display: block;
     align-self: flex-start;
-    padding: 0 0 154px 0;
+    padding: 0 0 230px 0;
     height: 35%;
   }
 
