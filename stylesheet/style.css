@@ -6,6 +6,49 @@ body {
   display: none;
 }
 
+.logo-container .logo {
+  display: none;
+}
+
+.navigation-bar {
+  display: flex;
+  
+}
+
+.navigation-bar nav {
+  width: 100%;
+}
+
+.navigation-bar ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.navigation-bar .xs-menu {
+  display: none;
+  
+}
+
+.navigation-bar ul:nth-child(2) {
+  justify-content: flex-start;
+  height: 46px;
+  line-height: 46px;
+  
+}
+
+.navigation-bar ul:nth-child(2) li:nth-child(7){
+  flex-grow: 2
+  
+}
+
+.nav-p {
+  padding: 0 1%;
+}
+
+
+/*new bar end*/
+
 .nav-container {
   position: fixed;
   background-color: white;
