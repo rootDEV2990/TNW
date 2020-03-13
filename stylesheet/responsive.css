@@ -632,42 +632,73 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
-    margin: 0;
+    width: 90%;
+    margin: 0 5%;
   }
 
   .funding-section .link-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 20px 0 0 0;
+    width: 100%;
+  }
+
+  .link-container div {
+    width: 50%;
   }
 
   .link-container .funding-info {
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 35%;
     justify-content: space-around;
+  }
+
+  .funding-title {
+    font-size: 20px;
+  }
+
+  .funding-info .funding-link:nth-child(1) {
+    order: 3;
+  }
+
+  .funding-info .funding-link:nth-child(2) {
+    order: 2;
+  }
+
+  .footer-link p {
+    padding-left: 15px;
   }
 
   .funding-main-grid {
     display: grid;
-    grid-template-columns: repeat(4, 270px);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
-    margin: 10px 2%;
-    width: 90%;
-    grid-gap: 5%;
+    width: 100%;
+    grid-gap: 1%;
   }
 
   .funding-grid {
     display: grid;
-    grid-template-columns: 90px 210px;
+    grid-template-columns: 30% 70%;
     grid-template-rows: 40px 60px 82px 63px;
+  }
+
+  .funding-grid .funding-title,
+  .funding-grid .funding-price {
+    padding: 13px 0 0 35%;
   }
 
   .news-item img {
     width: 270px;
     height: 201px;
   }
+
+  .news-section {
+    width: 82%;
+    margin: 40px 9%;
+  }  
 
   .news-section .last-new {
     display: grid;
