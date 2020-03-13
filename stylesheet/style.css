@@ -147,7 +147,7 @@ body {
 
 .article-container {
   display: grid;
-  padding-top: 124px;
+  padding-top: 1px;
 }
 
 .article-container .article-1 .main-article {
