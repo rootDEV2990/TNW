@@ -78,6 +78,20 @@
     width: 100%;
   }
 
+  .post-header {
+    padding: 135px 0 0 2%;
+  }
+
+  .post-header h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .post-header h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
   .news-item img {
     width: 75px;
     height: 75px;
@@ -162,6 +176,16 @@
     font-size: 12px;
   }
 
+  .post-header h4 {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .post-header h3 {
+    font-weight: 500;
+    font-size: 1.4rem;
+  }
+
   .latest-article header h3 {
     font-weight: 600;
   }
@@ -200,6 +224,12 @@
   .funding-link {
     font-weight: 600;
     font-size: 1.4rem;
+  }
+
+  .funding-info .funding-link {
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 1.2rem;
   }
 
   .main-article .article-flex {
@@ -596,7 +626,7 @@
   }
 
   .post-pic .post-header {
-    padding: 130px 0 0 2%;
+    padding: 120px 0 0 2%;
   }
 
   .post-header h4 {
