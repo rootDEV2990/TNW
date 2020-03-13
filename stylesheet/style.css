@@ -37,6 +37,11 @@ body {
   
 }
 
+.navigation-bar ul:nth-child(2) a {
+  text-decoration: none;
+  color: #aea9a9; 
+}
+
 .navigation-bar ul:nth-child(2) li:nth-child(7){
   flex-grow: 2
   

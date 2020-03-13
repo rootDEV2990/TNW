@@ -124,7 +124,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 541px) {
+@media only screen and (max-width: 789px) and (min-width: 541px) {
   .bn-hidden {
     display: none;
   }
@@ -249,7 +249,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 770px) {
+@media only screen and (max-width: 1024px) and (min-width: 790px) {
   .nav-bar .nav-i:nth-child(1) {
     padding: 0;
   }
@@ -468,6 +468,7 @@
     background-color: black;
     height: 31px;
     line-height: 31px;
+    font-size: 13px;
     
   }
 
@@ -475,6 +476,12 @@
     justify-content: flex-start;
     height: 46px;
     line-height: 46px;
+    
+  }
+
+  .navigation-bar ul:nth-child(2) {
+    height: 100%;
+    font-size: 13px;
     
   }
 
