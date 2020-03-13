@@ -12,7 +12,6 @@ body {
 
 .navigation-bar {
   display: flex;
-  
 }
 
 .navigation-bar ul {
@@ -22,31 +21,39 @@ body {
 
 .navigation-bar .xs-menu {
   display: none;
-  
 }
 
 .navigation-bar ul:nth-child(2) {
   justify-content: flex-start;
   height: 46px;
   line-height: 46px;
-  
 }
 
 .navigation-bar ul:nth-child(2) a {
-  color: #aea9a9; 
+  color: #aea9a9;
 }
 
-.navigation-bar ul:nth-child(2) li:nth-child(7){
-  flex-grow: 2
-  
+.red-bullet li {
+  list-style-type: circle;
+}
+
+footer .footer-nav:nth-child(2) li {
+  padding: 0 4px;
+}
+
+.footer-links .footer-nav:nth-child(1) li {
+  margin: 0 1%;
+}
+
+.navigation-bar ul:nth-child(2) li:nth-child(7) {
+  flex-grow: 2;
 }
 
 .nav-p {
   padding: 0 1%;
 }
 
-
-/*new bar end*/
+/* new bar end */
 
 .black-nav-link {
   color: rgb(192, 192, 192);
@@ -151,11 +158,6 @@ body {
   grid-template-columns: 75px 1fr;
   grid-gap: 4%;
   width: 100%;
-}
-
-.new-content .news-img {
-  height: 75px;
-  width: 75px;
 }
 
 .new-content .news-text p {
@@ -380,10 +382,6 @@ body {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Microsoft-Edge-Surf.jpg");
 }
 
-.red-bullet li {
-  list-style-type: circle;
-}
-
 .red-bullet .latest-link {
   font-size: 0.8rem;
   word-spacing: 2px;
@@ -406,10 +404,6 @@ body {
   padding: 0 9%;
 }
 
-footer .footer-nav:nth-child(2) li {
-  padding: 0 4px;
-}
-
 footer .footer-nav:nth-child(2) a {
   color: #9baa84;
   font-size: 11px;
@@ -430,10 +424,6 @@ footer .footer-links {
   padding-bottom: 1rem;
   width: 95%;
   margin: 0 auto;
-}
-
-.footer-links .footer-nav:nth-child(1) li {
-  margin: 0 1%;
 }
 
 footer .footer-nav:nth-child(1) a {
@@ -492,7 +482,7 @@ footer .footer-nav:nth-child(1) a {
 }
 
 .td-nn {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .fd-r {
