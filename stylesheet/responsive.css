@@ -608,7 +608,7 @@
   .latest-section {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 6%;
+    padding: 0 5% 0 9%;
   }
 
   .post-pic .post-header {
@@ -632,8 +632,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 90%;
-    margin: 0 5%;
+    width: 82%;
+    margin: 0 9%;
   }
 
   .funding-section .link-container {
